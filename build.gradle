@@ -32,6 +32,10 @@ kotlin {
     }
 }
 
+bootJar {
+    archiveFileName = 'hello-world.jar'
+}
+
 tasks.named('test') {
     useJUnitPlatform()
 }
